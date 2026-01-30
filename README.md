@@ -164,3 +164,92 @@ Key Indicators: DomainAgeMonths and NoOfExternalRef were identified as the most 
 Bias/Variance: Learning curves confirmed that the model generalizes well, with a narrow gap between training and validation scores.
 
 
+Fillanl submission:
+
+Complete README.md (Bullet Point Edition)
+Here is the condensed, high-impact version of your documentation for the final push:
+
+Environment Setup
+Create Virtual Env: python -m venv .venv
+
+Activate (Windows): .\.venv\Scripts\activate
+
+Activate (Mac/Linux): source .venv/bin/activate
+
+Install Packages: pip install -r requirements.txt
+
+Execution Steps:
+
+Model Training: Run python run_pipeline.py to process data, train the Random Forest, and save the model.
+
+Model Prediction: Run python predict.py to load the saved model and perform inference on sample data.
+
+GitHub Workflow:
+
+Check Changes: git status (shows what has been modified).
+
+Stage Changes: git add . (prepares all changes for the next commit).
+
+Save Changes: git commit -m "Descriptive message" (saves a snapshot locally).
+
+Upload Changes: git push origin main (sends changes to GitHub).
+
+Project Highlights
+Accuracy: 84%
+
+ROC AUC: 0.88
+
+Key Features: Automated cleaning of "null" strings, modular src/ directory, and handled feature mismatch during prediction.
+
+Final Action Step
+Run these last commands to ensure your GitHub is perfect:
+
+Save your requirements.txt and README.md.
+
+Execute the push:
+
+PowerShell
+git add requirements.txt README.md
+git commit -m "Final documentation update with environment and git instructions"
+git push origin main
+
+Email:
+Submission Email Template
+Subject: AIAP-2026 Practice Assessment Submission - [Stephen Wong Seng Kwong]
+
+Dear AIAP Team,
+
+I am pleased to submit my completed practice assessment for the Phishing Detection project.
+
+GitHub Repository: [https://github.com/StephenKingWongSengKwong/AIAP2026_practice_phishing_data]
+
+Implemented Web App from the above interaction in Firebase.IA:
+https://6000-firebase-studio-1763098018636.cluster-jbpclkas7nahwqkxjhmbf4rq3k.cloudworkstations.dev/
+
+Project Highlights:
+
+Model Performance: Achieved an 84% Accuracy and 0.88 ROC AUC using a hyperparameter-tuned Random Forest Classifier.
+
+Modular Architecture: The project is organized into a production-ready structure (src/ directory), separating preprocessing, modeling, and evaluation.
+
+Data Integrity: Implemented robust cleaning for "null" strings, negative values, and categorical encoding anomalies.
+
+Inference-Ready: Included a predict.py script that features automatic Feature Alignment (reindexing) to handle schema mismatches during live predictions.
+
+Key Files Included:
+
+run_pipeline.py: The main orchestrator for training and evaluation.
+
+predict.py: The inference script for testing new data samples.
+
+README.md: Detailed instructions for environment setup and execution.
+
+Thank you for your time and consideration. I look forward to your feedback.
+
+Best regards,
+
+Stephen 
+wongsengkwongstephen@gmail.com 
+hp: 87780548
+
+I've done the work
