@@ -252,4 +252,20 @@ Stephen
 wongsengkwongstephen@gmail.com 
 hp: 87780548
 
-I've done the work
+I've done the work.
+
+Note remember to update Github:
+
+git commit -m "Final submission: Updated README, requirements, and predict script"
+git push origin main
+
+Final Check
+After the push, refresh your GitHub browser page. You should see:
+
+The new README: Scrolling down should show your setup instructions.
+
+The requirements.txt: It should now list all the libraries (pandas, scikit-learn, etc.).
+
+The timestamp: Next to the files, it should say "last updated 1 minute ago" (or however long ago you pushed).
+
+Once that push is finished, you're officially done! Do you want to do one last check of the predict.py output together, or are you ready to send that submission email?
